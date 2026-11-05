@@ -1,0 +1,2 @@
+# Optional multi-portal job connector; installs additional data dependencies.
+python-jobspy>=1.1,<2

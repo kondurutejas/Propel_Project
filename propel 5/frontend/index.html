@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Propel — Career Advancement | Internship Readiness & Job Tracker</title>
+  <meta name="description" content="Propel your career forward with our 3D immersive internship readiness tracker and job discovery platform." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" /><link rel="stylesheet" href="./twin.css" />
+</head>
+<body>
+  <canvas id="rocket-canvas"></canvas>
+  <div id="scroll-progress"><div id="scroll-progress-bar"></div></div>
+
+  <!-- Navigation -->
+  <nav id="main-nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo"><span class="logo-icon">🚀</span><span class="logo-text">PROPEL</span></a>
+      <div class="nav-links">
+        <a href="#hero" class="nav-link active" data-section="hero">Home</a>
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#tracker" class="nav-link" data-section="tracker">Tracker</a>
+        <a href="#jobs" class="nav-link" data-section="jobs">Jobs</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button id="btn-notifications" class="btn-icon" aria-label="Notifications">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+          <span id="notification-badge" class="badge hidden">0</span>
+        </button>
+        <button id="btn-login" class="btn-primary-sm">Sign In</button>
+      </div>
+      <button id="mobile-menu-toggle" class="btn-icon mobile-only" aria-label="Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobile-menu" class="hidden">
+    <a href="#hero" class="mobile-link">Home</a>
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#tracker" class="mobile-link">Tracker</a>
+    <a href="#jobs" class="mobile-link">Jobs</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <button id="mobile-login" class="btn-primary">Sign In</button>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero" class="section hero-section">
+    <div class="hero-content">
+      <div class="hero-badge"><span class="badge-pulse"></span><span>Evidence-led career readiness</span></div>
+      <h1 class="hero-title"><span class="title-line">Launch Your</span><span class="title-line gradient-text">Career Into Orbit</span></h1>
+      <p class="hero-subtitle">Track your internship readiness, discover jobs from LinkedIn & Naukri, and propel your career forward — all in one immersive platform.</p>
+      <div class="hero-cta">
+        <button id="btn-get-started" class="btn-primary btn-lg"><span>Get Started</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+        <button id="btn-explore" class="btn-ghost btn-lg">Explore Jobs</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item"><span class="stat-number" data-target="3">0</span><span class="stat-label">Confidence Checks</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-number" data-target="8">0</span><span class="stat-label">Career Paths</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-number" data-target="13">0</span><span class="stat-label">Knowledge Checks</span></div>
+      </div>
+    </div>
+    <div class="scroll-indicator"><span>Scroll to Launch</span><div class="scroll-arrow"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg></div></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">About Propel</span>
+        <h2 class="section-title">Your Mission Control for <span class="gradient-text">Career Success</span></h2>
+        <p class="section-desc">Propel combines cutting-edge 3D visualization with powerful job tracking tools to give you an unfair advantage in your career journey.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card glass-card"><div class="feature-icon" style="--accent:#4A90D9"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg></div><h3>Readiness Tracker</h3><p>Combine evidence, freshness and confidence to understand your readiness for a target role.</p></div>
+        <div class="feature-card glass-card"><div class="feature-icon" style="--accent:#FF6B6B"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg></div><h3>Job Aggregation</h3><p>Explore opportunities, select a job as your target, and review the skills it requires.</p></div>
+        <div class="feature-card glass-card"><div class="feature-icon" style="--accent:#4ECDC4"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg></div><h3>Smart Alerts</h3><p>Review notifications when fresh listings are fetched for your search.</p></div>
+        <div class="feature-card glass-card"><div class="feature-icon" style="--accent:#FFD93D"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div><h3>Progress Tracking</h3><p>Understand every score, refresh old evidence and track your next learning actions.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRACKER -->
+  <section id="tracker" class="section tracker-section">
+    <div class="section-container twin-container">
+      <div class="section-header">
+        <span class="section-tag">Your readiness digital twin</span>
+        <h2 class="section-title">Turn your evidence into <span class="gradient-text">your next move.</span></h2>
+        <p class="section-desc">See what you can demonstrate, where your evidence needs a refresh, and the shortest learning plan for your target role.</p>
+      </div>
+      <div class="twin-toolbar glass-card"><p id="twin-account">Sign in to save your evidence and progress.</p><div class="twin-buttons"><button id="twin-sample" class="btn-ghost">Explore a sample</button><button id="twin-refresh" class="btn-primary">My readiness</button><button id="twin-export" class="btn-ghost" disabled>Export report</button></div></div>
+      <p id="twin-message" class="twin-message" role="status" aria-live="polite"></p>
+      <div id="sample-banner" class="sample-banner hidden">SAMPLE PROFILE · Synthetic evidence to demonstrate the calculations. These are not your scores. Choose My readiness to return to your account.</div>
+      <div class="twin-input-grid">
+        <div class="glass-card twin-panel">
+          <span class="section-tag">01 / Set your destination</span><h3>Target role</h3>
+          <form id="target-form">
+            <label for="target-role">Start with a role</label><select id="target-role"><option>Loading roles…</option></select>
+            <label for="target-name">Target name</label><input id="target-name" maxlength="250" value="Software Engineering" required>
+            <label for="target-description">Or paste a job description</label><textarea id="target-description" rows="3" placeholder="Example: Python, SQL and Git. Optional levels: Python: 0.7"></textarea>
+            <button type="button" id="parse-target" class="btn-ghost">Extract requirements</button>
+            <p class="twin-help">Review the extracted skills. Levels range from 0.10 to 0.80; dictionary matching may miss context.</p>
+            <div id="target-editor" class="target-editor"></div>
+            <div class="inline-form"><select id="target-add-skill" aria-label="Add target competency"></select><button type="button" id="target-add" class="btn-ghost">Add skill</button></div>
+            <div class="twin-two"><div><label for="plan-objective">Optimize for</label><select id="plan-objective"><option value="actions">Fewest learning actions</option><option value="hours">Fewest estimated hours</option></select></div><div><label for="plan-budget">Time budget in hours</label><input id="plan-budget" type="number" min="0.25" max="10000" step="0.25" placeholder="No limit"></div></div>
+            <button class="btn-primary btn-full">Save target and calculate</button>
+          </form>
+        </div>
+        <div class="glass-card twin-panel">
+          <span class="section-tag">02 / Build your evidence</span><h3>What have you done?</h3>
+          <form id="evidence-form">
+            <label for="evidence-skill">Competency</label><select id="evidence-skill"></select>
+            <div class="twin-two"><div><label for="evidence-kind">Source</label><select id="evidence-kind"><option value="declaration">Self-declared skill</option><option value="project">Project (self-reported)</option><option value="certificate">Certificate (unverified)</option><option value="coursework">Coursework (self-reported)</option></select></div><div><label for="evidence-value">Level from 0 to 1</label><input id="evidence-value" type="number" min="0" max="1" step="0.01" value="0.7" required></div></div>
+            <label for="evidence-date">When did you demonstrate it?</label><input id="evidence-date" type="date" required>
+            <label for="evidence-note">Evidence description</label><input id="evidence-note" maxlength="500" placeholder="What did you build or complete?">
+            <button class="btn-primary btn-full">Add evidence and recalculate</button>
+          </form>
+          <details class="twin-details"><summary>Import a resume or coding activity</summary>
+            <form id="resume-form"><label for="resume-file">Resume · PDF, DOCX or TXT, up to 5 MB</label><input id="resume-file" type="file" accept=".pdf,.docx,.txt" required><p class="twin-help">Resume mentions are self-reported evidence. Scanned PDFs need OCR. Files are parsed in memory and are not stored.</p><button class="btn-ghost">Import resume</button></form>
+            <form id="github-form"><label for="github-repo">Public repository</label><input id="github-repo" placeholder="owner/repository" required><p class="twin-help">Imports primary language and last push date. Ownership and code quality are not verified.</p><button class="btn-ghost">Import GitHub signal</button></form>
+            <form id="codeforces-form"><label for="codeforces-handle">Codeforces handle</label><input id="codeforces-handle" placeholder="Public contest handle" required><p class="twin-help">Imports the latest contest rating as an Algorithms signal. Account ownership is not verified.</p><button class="btn-ghost">Import coding signal</button></form>
+          </details>
+        </div>
+      </div>
+      <div id="twin-results" class="hidden">
+        <div class="twin-result-heading"><div><span class="section-tag">Your current picture</span><h3 id="result-target"></h3><p id="result-time" class="twin-help"></p></div><span class="prototype-label">Prototype assessment · not a hiring prediction</span></div>
+        <div id="twin-metrics" class="twin-metrics"></div>
+        <div class="glass-card twin-panel"><h3>Competency and confidence</h3><p class="twin-help">A skill is ready only when its score reaches the target and quality, freshness and consistency all pass. Low-confidence skills require validation.</p><div id="competency-grid" class="competency-grid"></div></div>
+        <div class="glass-card twin-panel"><div class="twin-result-heading"><h3>Your next actions</h3><span id="plan-total"></span></div><p id="plan-note" class="twin-help"></p><div id="plan-actions" class="plan-actions"></div></div>
+        <div class="glass-card twin-panel"><h3>Check your knowledge</h3><p class="twin-help">Server-scored, unsupervised checks for 13 core skills. These are not proctored certifications. Other skills require an assessor-reviewed result.</p><form id="assessment-form" class="inline-form"><select id="assessment-skill" aria-label="Assessment competency"></select><button class="btn-primary">Start a check</button></form><div id="assessment-questions"></div></div>
+        <details class="glass-card twin-panel"><summary>Evidence history and reliability changes</summary><div id="evidence-history"></div><div id="reliability-history"></div></details>
+        <details class="glass-card twin-panel"><summary>How the calculations work</summary><p>Each source has a reliability weight. The evidence score is the sum of reliability × age factor × evidence value, divided by the sum of reliability weights. The age factor halves every 90 or 180 days, depending on the skill.</p><p>Quality measures source reliability, freshness measures age, and consistency measures agreement. Current policy thresholds are 65%, 60% and 65%. These defaults are experimental, not validated hiring standards.</p><p>The planner searches the complete activity catalog for your target. Learning gains and durations are estimates; completing a task never automatically awards a skill score. A new assessment or assessor-reviewed result updates your evidence.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOBS -->
+  <section id="jobs" class="section jobs-section">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Job Discovery</span>
+        <h2 class="section-title">Find Your Next <span class="gradient-text">Opportunity</span></h2>
+        <p class="section-desc">Fetch opportunities from supported sources or explore clearly labelled samples. Select a listing to assess your readiness.</p>
+      </div>
+      <div class="jobs-toolbar glass-card">
+        <div class="search-bar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="job-search" placeholder="Search jobs, companies, skills..." aria-label="Search jobs" />
+        </div>
+        <div class="filter-chips">
+          <button class="chip active" data-source="all">All Sources</button>
+          <button class="chip" data-source="linkedin">LinkedIn</button>
+          <button class="chip" data-source="indeed">Indeed</button>
+          <button class="chip" data-source="naukri">Naukri</button>
+        </div>
+        <div class="filter-row">
+          <select id="filter-location" class="filter-select" aria-label="Location"><option value="">All Locations</option><option value="Bengaluru">Bengaluru</option><option value="Mumbai">Mumbai</option><option value="Delhi">Delhi</option><option value="Hyderabad">Hyderabad</option><option value="Pune">Pune</option><option value="Remote">Remote</option></select>
+          <select id="filter-type" class="filter-select" aria-label="Job type"><option value="">All Types</option><option value="internship">Internship</option><option value="full-time">Full Time</option><option value="part-time">Part Time</option></select>
+          <button id="btn-scrape" class="btn-primary"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg><span>Refresh Jobs</span></button>
+        </div>
+      </div>
+      <p id="jobs-status" class="twin-message" role="status"></p><button id="jobs-samples" class="btn-ghost">Show sample listings</button><div id="jobs-grid" class="jobs-grid"></div>
+      <div id="jobs-loading" class="jobs-loading hidden"><div class="loader-spinner"></div><p>Scanning job portals...</p></div>
+      <div id="jobs-empty" class="jobs-empty hidden"><div class="empty-icon">🔍</div><h3>No jobs found</h3><p>Try adjusting your search or click "Refresh Jobs".</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="section-container">
+      <div class="contact-content">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Ready to <span class="gradient-text">Propel Forward?</span></h2>
+          <p class="section-desc">Share feedback and help improve Propel.</p>
+        </div>
+        <form id="contact-form" class="contact-form glass-card">
+          <div class="form-row">
+            <div class="form-group"><label for="contact-name">Name</label><input type="text" id="contact-name" placeholder="Your name" required /></div>
+            <div class="form-group"><label for="contact-email">Email</label><input type="email" id="contact-email" placeholder="you@example.com" required /></div>
+          </div>
+          <div class="form-group"><label for="contact-subject">Subject</label><select id="contact-subject"><option value="general">General Inquiry</option><option value="feedback">Feedback</option><option value="bug">Bug Report</option></select></div>
+          <div class="form-group"><label for="contact-message">Message</label><textarea id="contact-message" rows="4" placeholder="Tell us what's on your mind..." required></textarea></div>
+          <button type="submit" class="btn-primary btn-lg btn-full"><span>Send Message</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand"><span class="logo-icon">🚀</span><span class="logo-text">PROPEL</span><p class="footer-tagline">Career Advancement Platform</p></div>
+      <div class="footer-links">
+        <div class="footer-col"><h4>Platform</h4><a href="#tracker">Readiness Tracker</a><a href="#jobs">Job Board</a></div>
+        <div class="footer-col"><h4>Sources</h4><a href="#">LinkedIn</a><a href="#">Indeed</a><a href="#">Naukri</a></div>
+        <div class="footer-col"><h4>Company</h4><a href="#about">About</a><a href="#contact">Contact</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Propel — Career Advancement. Built with 🚀</p></div>
+  </footer>
+
+  <!-- AUTH MODAL -->
+  <div id="auth-modal" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-content glass-card">
+      <button class="modal-close" id="auth-modal-close">&times;</button>
+      <div id="auth-login-view">
+        <h2>Welcome Back 🚀</h2><p>Sign in to track your progress</p>
+        <form id="login-form">
+          <div class="form-group"><label for="login-username">Username</label><input type="text" id="login-username" placeholder="Enter username" required /></div>
+          <div class="form-group"><label for="login-password">Password</label><input type="password" id="login-password" placeholder="Enter password" required /></div>
+          <button type="submit" class="btn-primary btn-lg btn-full">Sign In</button>
+        </form>
+        <p class="auth-switch">Don't have an account? <a href="#" id="show-register">Sign Up</a></p>
+      </div>
+      <div id="auth-register-view" class="hidden">
+        <h2>Join Propel 🌟</h2><p>Create your account to start your journey</p>
+        <form id="register-form">
+          <div class="form-group"><label for="register-username">Username</label><input type="text" id="register-username" placeholder="Choose a username" required /></div>
+          <div class="form-group"><label for="register-email">Email</label><input type="email" id="register-email" placeholder="you@example.com" required /></div>
+          <div class="form-group"><label for="register-password">Password</label><input type="password" id="register-password" placeholder="Min 8 characters" required /></div>
+          <div class="form-group"><label for="register-goal">Career Goal</label><select id="register-goal"><option value="software">Software Engineering</option><option value="data">Data Science</option><option value="design">UX/UI Design</option><option value="other">Other</option></select></div>
+          <button type="submit" class="btn-primary btn-lg btn-full">Create Account</button>
+        </form>
+        <p class="auth-switch">Already have an account? <a href="#" id="show-login">Sign In</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTIFICATION PANEL -->
+  <div id="notification-panel" class="notification-panel hidden">
+    <div class="notif-header"><h3>Notifications</h3><button id="notif-clear" class="btn-ghost-sm">Clear All</button></div>
+    <div id="notif-list" class="notif-list"><div class="notif-empty"><p>No new notifications</p></div></div>
+  </div>
+
+  <!-- TOAST CONTAINER -->
+  <div id="toast-container"></div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

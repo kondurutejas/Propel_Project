@@ -1,0 +1,1311 @@
+{
+  "roles": {
+    "software": {
+      "name": "Software Engineering",
+      "skills": [
+        {
+          "name": "Python",
+          "category": "Language",
+          "priority": "high",
+          "resource": "Python.org Tutorial",
+          "url": "https://docs.python.org/3/tutorial/",
+          "weeks": 3
+        },
+        {
+          "name": "Java",
+          "category": "Language",
+          "priority": "high",
+          "resource": "Java MOOC (Helsinki)",
+          "url": "https://java-programming.mooc.fi/",
+          "weeks": 4
+        },
+        {
+          "name": "JavaScript",
+          "category": "Language",
+          "priority": "high",
+          "resource": "JavaScript.info",
+          "url": "https://javascript.info/",
+          "weeks": 3
+        },
+        {
+          "name": "Data Structures",
+          "category": "CS Fundamentals",
+          "priority": "high",
+          "resource": "NeetCode Roadmap",
+          "url": "https://neetcode.io/roadmap",
+          "weeks": 6
+        },
+        {
+          "name": "Algorithms",
+          "category": "CS Fundamentals",
+          "priority": "high",
+          "resource": "LeetCode Practice",
+          "url": "https://leetcode.com/",
+          "weeks": 6
+        },
+        {
+          "name": "Git",
+          "category": "Tools",
+          "priority": "high",
+          "resource": "Git Handbook",
+          "url": "https://guides.github.com/",
+          "weeks": 1
+        },
+        {
+          "name": "SQL",
+          "category": "Database",
+          "priority": "medium",
+          "resource": "SQLBolt",
+          "url": "https://sqlbolt.com/",
+          "weeks": 2
+        },
+        {
+          "name": "REST API",
+          "category": "Backend",
+          "priority": "medium",
+          "resource": "RESTful API Tutorial",
+          "url": "https://restfulapi.net/",
+          "weeks": 2
+        },
+        {
+          "name": "Linux",
+          "category": "Tools",
+          "priority": "medium",
+          "resource": "Linux Journey",
+          "url": "https://linuxjourney.com/",
+          "weeks": 2
+        },
+        {
+          "name": "Docker",
+          "category": "DevOps",
+          "priority": "low",
+          "resource": "Docker Getting Started",
+          "url": "https://docs.docker.com/get-started/",
+          "weeks": 2
+        },
+        {
+          "name": "OOP",
+          "category": "CS Fundamentals",
+          "priority": "high",
+          "resource": "OOP Concepts Guide",
+          "url": "https://www.freecodecamp.org/",
+          "weeks": 2
+        },
+        {
+          "name": "Testing",
+          "category": "Engineering",
+          "priority": "medium",
+          "resource": "Unit Testing Guide",
+          "url": "https://realpython.com/python-testing/",
+          "weeks": 2
+        }
+      ]
+    },
+    "data": {
+      "name": "Data Science",
+      "skills": [
+        {
+          "name": "Python",
+          "category": "Language",
+          "priority": "high",
+          "resource": "Python for Data Science",
+          "url": "https://www.datacamp.com/",
+          "weeks": 3
+        },
+        {
+          "name": "Pandas",
+          "category": "Library",
+          "priority": "high",
+          "resource": "Pandas Documentation",
+          "url": "https://pandas.pydata.org/docs/",
+          "weeks": 2
+        },
+        {
+          "name": "NumPy",
+          "category": "Library",
+          "priority": "high",
+          "resource": "NumPy Quickstart",
+          "url": "https://numpy.org/doc/stable/",
+          "weeks": 1
+        },
+        {
+          "name": "Machine Learning",
+          "category": "Core",
+          "priority": "high",
+          "resource": "Andrew Ng ML Course",
+          "url": "https://www.coursera.org/learn/machine-learning",
+          "weeks": 8
+        },
+        {
+          "name": "Statistics",
+          "category": "Math",
+          "priority": "high",
+          "resource": "Khan Academy Stats",
+          "url": "https://www.khanacademy.org/math/statistics-probability",
+          "weeks": 4
+        },
+        {
+          "name": "SQL",
+          "category": "Database",
+          "priority": "high",
+          "resource": "SQLBolt",
+          "url": "https://sqlbolt.com/",
+          "weeks": 2
+        },
+        {
+          "name": "Data Visualization",
+          "category": "Skill",
+          "priority": "medium",
+          "resource": "Matplotlib & Seaborn",
+          "url": "https://matplotlib.org/",
+          "weeks": 2
+        },
+        {
+          "name": "Scikit-learn",
+          "category": "Library",
+          "priority": "medium",
+          "resource": "Scikit-learn Tutorials",
+          "url": "https://scikit-learn.org/",
+          "weeks": 3
+        },
+        {
+          "name": "TensorFlow",
+          "category": "Framework",
+          "priority": "medium",
+          "resource": "TF Beginner Guide",
+          "url": "https://www.tensorflow.org/tutorials",
+          "weeks": 4
+        },
+        {
+          "name": "R",
+          "category": "Language",
+          "priority": "low",
+          "resource": "R for Data Science",
+          "url": "https://r4ds.had.co.nz/",
+          "weeks": 3
+        },
+        {
+          "name": "Jupyter",
+          "category": "Tools",
+          "priority": "medium",
+          "resource": "Jupyter Docs",
+          "url": "https://jupyter.org/",
+          "weeks": 1
+        },
+        {
+          "name": "Deep Learning",
+          "category": "Advanced",
+          "priority": "low",
+          "resource": "Fast.ai Course",
+          "url": "https://www.fast.ai/",
+          "weeks": 6
+        }
+      ]
+    },
+    "fullstack": {
+      "name": "Full Stack Development",
+      "skills": [
+        {
+          "name": "HTML",
+          "category": "Frontend",
+          "priority": "high",
+          "resource": "MDN HTML Guide",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "weeks": 1
+        },
+        {
+          "name": "CSS",
+          "category": "Frontend",
+          "priority": "high",
+          "resource": "CSS Tricks",
+          "url": "https://css-tricks.com/",
+          "weeks": 2
+        },
+        {
+          "name": "JavaScript",
+          "category": "Language",
+          "priority": "high",
+          "resource": "JavaScript.info",
+          "url": "https://javascript.info/",
+          "weeks": 3
+        },
+        {
+          "name": "React",
+          "category": "Frontend",
+          "priority": "high",
+          "resource": "React Official Docs",
+          "url": "https://react.dev/",
+          "weeks": 4
+        },
+        {
+          "name": "Node.js",
+          "category": "Backend",
+          "priority": "high",
+          "resource": "Node.js Guides",
+          "url": "https://nodejs.org/en/docs/guides",
+          "weeks": 3
+        },
+        {
+          "name": "Express",
+          "category": "Backend",
+          "priority": "high",
+          "resource": "Express.js Guide",
+          "url": "https://expressjs.com/",
+          "weeks": 2
+        },
+        {
+          "name": "MongoDB",
+          "category": "Database",
+          "priority": "medium",
+          "resource": "MongoDB University",
+          "url": "https://university.mongodb.com/",
+          "weeks": 3
+        },
+        {
+          "name": "SQL",
+          "category": "Database",
+          "priority": "medium",
+          "resource": "SQLBolt",
+          "url": "https://sqlbolt.com/",
+          "weeks": 2
+        },
+        {
+          "name": "Git",
+          "category": "Tools",
+          "priority": "high",
+          "resource": "Git Handbook",
+          "url": "https://guides.github.com/",
+          "weeks": 1
+        },
+        {
+          "name": "REST API",
+          "category": "Backend",
+          "priority": "high",
+          "resource": "RESTful API Guide",
+          "url": "https://restfulapi.net/",
+          "weeks": 2
+        },
+        {
+          "name": "TypeScript",
+          "category": "Language",
+          "priority": "medium",
+          "resource": "TS Handbook",
+          "url": "https://www.typescriptlang.org/docs/",
+          "weeks": 3
+        },
+        {
+          "name": "Docker",
+          "category": "DevOps",
+          "priority": "low",
+          "resource": "Docker Getting Started",
+          "url": "https://docs.docker.com/get-started/",
+          "weeks": 2
+        }
+      ]
+    },
+    "design": {
+      "name": "UX/UI Design",
+      "skills": [
+        {
+          "name": "Figma",
+          "category": "Tool",
+          "priority": "high",
+          "resource": "Figma Learn",
+          "url": "https://www.figma.com/resources/learn-design/",
+          "weeks": 3
+        },
+        {
+          "name": "User Research",
+          "category": "UX",
+          "priority": "high",
+          "resource": "UX Research Guide",
+          "url": "https://www.nngroup.com/",
+          "weeks": 3
+        },
+        {
+          "name": "Wireframing",
+          "category": "UX",
+          "priority": "high",
+          "resource": "Wireframing Guide",
+          "url": "https://www.usability.gov/",
+          "weeks": 2
+        },
+        {
+          "name": "Prototyping",
+          "category": "UX",
+          "priority": "high",
+          "resource": "Figma Prototyping",
+          "url": "https://www.figma.com/",
+          "weeks": 2
+        },
+        {
+          "name": "HTML",
+          "category": "Code",
+          "priority": "medium",
+          "resource": "MDN HTML",
+          "url": "https://developer.mozilla.org/",
+          "weeks": 2
+        },
+        {
+          "name": "CSS",
+          "category": "Code",
+          "priority": "medium",
+          "resource": "CSS Tricks",
+          "url": "https://css-tricks.com/",
+          "weeks": 2
+        },
+        {
+          "name": "Typography",
+          "category": "Design",
+          "priority": "medium",
+          "resource": "Typography Guide",
+          "url": "https://practicaltypography.com/",
+          "weeks": 1
+        },
+        {
+          "name": "Color Theory",
+          "category": "Design",
+          "priority": "medium",
+          "resource": "Color Theory Basics",
+          "url": "https://www.interaction-design.org/",
+          "weeks": 1
+        },
+        {
+          "name": "Accessibility",
+          "category": "UX",
+          "priority": "medium",
+          "resource": "A11y Project",
+          "url": "https://www.a11yproject.com/",
+          "weeks": 2
+        },
+        {
+          "name": "Design Systems",
+          "category": "Design",
+          "priority": "low",
+          "resource": "Design Systems Guide",
+          "url": "https://www.designsystems.com/",
+          "weeks": 3
+        },
+        {
+          "name": "Adobe XD",
+          "category": "Tool",
+          "priority": "low",
+          "resource": "Adobe XD Tutorials",
+          "url": "https://www.adobe.com/",
+          "weeks": 2
+        },
+        {
+          "name": "Sketch",
+          "category": "Tool",
+          "priority": "low",
+          "resource": "Sketch Docs",
+          "url": "https://www.sketch.com/",
+          "weeks": 2
+        }
+      ]
+    },
+    "devops": {
+      "name": "DevOps / Cloud",
+      "skills": [
+        {
+          "name": "Linux",
+          "category": "OS",
+          "priority": "high",
+          "resource": "Linux Journey",
+          "url": "https://linuxjourney.com/",
+          "weeks": 3
+        },
+        {
+          "name": "Docker",
+          "category": "Containers",
+          "priority": "high",
+          "resource": "Docker Docs",
+          "url": "https://docs.docker.com/",
+          "weeks": 3
+        },
+        {
+          "name": "Kubernetes",
+          "category": "Orchestration",
+          "priority": "high",
+          "resource": "K8s Tutorial",
+          "url": "https://kubernetes.io/docs/tutorials/",
+          "weeks": 5
+        },
+        {
+          "name": "AWS",
+          "category": "Cloud",
+          "priority": "high",
+          "resource": "AWS Cloud Practitioner",
+          "url": "https://aws.amazon.com/training/",
+          "weeks": 6
+        },
+        {
+          "name": "CI/CD",
+          "category": "Automation",
+          "priority": "high",
+          "resource": "GitHub Actions Guide",
+          "url": "https://docs.github.com/en/actions",
+          "weeks": 2
+        },
+        {
+          "name": "Git",
+          "category": "VCS",
+          "priority": "high",
+          "resource": "Git Handbook",
+          "url": "https://guides.github.com/",
+          "weeks": 1
+        },
+        {
+          "name": "Terraform",
+          "category": "IaC",
+          "priority": "medium",
+          "resource": "Terraform Learn",
+          "url": "https://learn.hashicorp.com/terraform",
+          "weeks": 4
+        },
+        {
+          "name": "Python",
+          "category": "Scripting",
+          "priority": "medium",
+          "resource": "Automate the Boring Stuff",
+          "url": "https://automatetheboringstuff.com/",
+          "weeks": 3
+        },
+        {
+          "name": "Bash",
+          "category": "Scripting",
+          "priority": "medium",
+          "resource": "Bash Guide",
+          "url": "https://tldp.org/LDP/Bash-Beginners-Guide/",
+          "weeks": 2
+        },
+        {
+          "name": "Networking",
+          "category": "Fundamentals",
+          "priority": "medium",
+          "resource": "Networking Basics",
+          "url": "https://www.cloudflare.com/learning/",
+          "weeks": 3
+        },
+        {
+          "name": "Monitoring",
+          "category": "Ops",
+          "priority": "low",
+          "resource": "Prometheus + Grafana",
+          "url": "https://prometheus.io/",
+          "weeks": 2
+        },
+        {
+          "name": "Ansible",
+          "category": "Config Mgmt",
+          "priority": "low",
+          "resource": "Ansible Docs",
+          "url": "https://docs.ansible.com/",
+          "weeks": 3
+        }
+      ]
+    },
+    "mobile": {
+      "name": "Mobile Development",
+      "skills": [
+        {
+          "name": "React Native",
+          "category": "Framework",
+          "priority": "high",
+          "resource": "React Native Docs",
+          "url": "https://reactnative.dev/",
+          "weeks": 5
+        },
+        {
+          "name": "JavaScript",
+          "category": "Language",
+          "priority": "high",
+          "resource": "JavaScript.info",
+          "url": "https://javascript.info/",
+          "weeks": 3
+        },
+        {
+          "name": "Flutter",
+          "category": "Framework",
+          "priority": "high",
+          "resource": "Flutter Docs",
+          "url": "https://flutter.dev/docs",
+          "weeks": 5
+        },
+        {
+          "name": "Dart",
+          "category": "Language",
+          "priority": "medium",
+          "resource": "Dart Language Tour",
+          "url": "https://dart.dev/guides",
+          "weeks": 2
+        },
+        {
+          "name": "Swift",
+          "category": "Language",
+          "priority": "medium",
+          "resource": "Swift Playgrounds",
+          "url": "https://developer.apple.com/swift/",
+          "weeks": 4
+        },
+        {
+          "name": "Kotlin",
+          "category": "Language",
+          "priority": "medium",
+          "resource": "Kotlin Docs",
+          "url": "https://kotlinlang.org/docs/",
+          "weeks": 4
+        },
+        {
+          "name": "REST API",
+          "category": "Backend",
+          "priority": "high",
+          "resource": "RESTful API Guide",
+          "url": "https://restfulapi.net/",
+          "weeks": 2
+        },
+        {
+          "name": "Firebase",
+          "category": "Backend",
+          "priority": "medium",
+          "resource": "Firebase Docs",
+          "url": "https://firebase.google.com/docs",
+          "weeks": 2
+        },
+        {
+          "name": "Git",
+          "category": "Tools",
+          "priority": "high",
+          "resource": "Git Handbook",
+          "url": "https://guides.github.com/",
+          "weeks": 1
+        },
+        {
+          "name": "UI Design",
+          "category": "Design",
+          "priority": "medium",
+          "resource": "Material Design",
+          "url": "https://m3.material.io/",
+          "weeks": 2
+        },
+        {
+          "name": "App Store",
+          "category": "Deployment",
+          "priority": "low",
+          "resource": "Publishing Guide",
+          "url": "https://developer.android.com/",
+          "weeks": 1
+        },
+        {
+          "name": "Testing",
+          "category": "QA",
+          "priority": "medium",
+          "resource": "Mobile Testing Guide",
+          "url": "https://appium.io/",
+          "weeks": 2
+        }
+      ]
+    },
+    "ai": {
+      "name": "AI / Machine Learning",
+      "skills": [
+        {
+          "name": "Python",
+          "category": "Language",
+          "priority": "high",
+          "resource": "Python.org",
+          "url": "https://docs.python.org/3/tutorial/",
+          "weeks": 3
+        },
+        {
+          "name": "Machine Learning",
+          "category": "Core",
+          "priority": "high",
+          "resource": "Andrew Ng ML Course",
+          "url": "https://www.coursera.org/learn/machine-learning",
+          "weeks": 8
+        },
+        {
+          "name": "Deep Learning",
+          "category": "Core",
+          "priority": "high",
+          "resource": "Fast.ai",
+          "url": "https://www.fast.ai/",
+          "weeks": 8
+        },
+        {
+          "name": "TensorFlow",
+          "category": "Framework",
+          "priority": "high",
+          "resource": "TF Tutorials",
+          "url": "https://www.tensorflow.org/tutorials",
+          "weeks": 4
+        },
+        {
+          "name": "PyTorch",
+          "category": "Framework",
+          "priority": "high",
+          "resource": "PyTorch Tutorials",
+          "url": "https://pytorch.org/tutorials/",
+          "weeks": 4
+        },
+        {
+          "name": "NumPy",
+          "category": "Library",
+          "priority": "high",
+          "resource": "NumPy Quickstart",
+          "url": "https://numpy.org/",
+          "weeks": 1
+        },
+        {
+          "name": "Pandas",
+          "category": "Library",
+          "priority": "medium",
+          "resource": "Pandas Docs",
+          "url": "https://pandas.pydata.org/",
+          "weeks": 2
+        },
+        {
+          "name": "NLP",
+          "category": "Specialization",
+          "priority": "medium",
+          "resource": "Hugging Face Course",
+          "url": "https://huggingface.co/course",
+          "weeks": 5
+        },
+        {
+          "name": "Computer Vision",
+          "category": "Specialization",
+          "priority": "medium",
+          "resource": "OpenCV Tutorials",
+          "url": "https://docs.opencv.org/",
+          "weeks": 4
+        },
+        {
+          "name": "Statistics",
+          "category": "Math",
+          "priority": "high",
+          "resource": "Khan Academy",
+          "url": "https://www.khanacademy.org/",
+          "weeks": 4
+        },
+        {
+          "name": "Linear Algebra",
+          "category": "Math",
+          "priority": "medium",
+          "resource": "3Blue1Brown",
+          "url": "https://www.3blue1brown.com/",
+          "weeks": 3
+        },
+        {
+          "name": "MLOps",
+          "category": "Engineering",
+          "priority": "low",
+          "resource": "MLOps Guide",
+          "url": "https://ml-ops.org/",
+          "weeks": 4
+        }
+      ]
+    },
+    "marketing": {
+      "name": "Digital Marketing",
+      "skills": [
+        {
+          "name": "SEO",
+          "category": "Core",
+          "priority": "high",
+          "resource": "Moz Beginner Guide",
+          "url": "https://moz.com/beginners-guide-to-seo",
+          "weeks": 3
+        },
+        {
+          "name": "Google Analytics",
+          "category": "Tool",
+          "priority": "high",
+          "resource": "Google Analytics Academy",
+          "url": "https://analytics.google.com/analytics/academy/",
+          "weeks": 2
+        },
+        {
+          "name": "Social Media",
+          "category": "Channel",
+          "priority": "high",
+          "resource": "HubSpot Social Guide",
+          "url": "https://www.hubspot.com/",
+          "weeks": 2
+        },
+        {
+          "name": "Content Strategy",
+          "category": "Core",
+          "priority": "high",
+          "resource": "Content Marketing Institute",
+          "url": "https://contentmarketinginstitute.com/",
+          "weeks": 3
+        },
+        {
+          "name": "Email Marketing",
+          "category": "Channel",
+          "priority": "medium",
+          "resource": "Mailchimp Resources",
+          "url": "https://mailchimp.com/resources/",
+          "weeks": 2
+        },
+        {
+          "name": "PPC",
+          "category": "Advertising",
+          "priority": "medium",
+          "resource": "Google Ads Certification",
+          "url": "https://skillshop.exceedlms.com/",
+          "weeks": 3
+        },
+        {
+          "name": "Copywriting",
+          "category": "Skill",
+          "priority": "high",
+          "resource": "Copyblogger",
+          "url": "https://copyblogger.com/",
+          "weeks": 3
+        },
+        {
+          "name": "A/B Testing",
+          "category": "Analytics",
+          "priority": "medium",
+          "resource": "Optimizely Guide",
+          "url": "https://www.optimizely.com/",
+          "weeks": 2
+        },
+        {
+          "name": "Branding",
+          "category": "Strategy",
+          "priority": "medium",
+          "resource": "Brand Strategy Course",
+          "url": "https://www.coursera.org/",
+          "weeks": 3
+        },
+        {
+          "name": "HTML",
+          "category": "Technical",
+          "priority": "low",
+          "resource": "MDN HTML",
+          "url": "https://developer.mozilla.org/",
+          "weeks": 1
+        },
+        {
+          "name": "Canva",
+          "category": "Tool",
+          "priority": "low",
+          "resource": "Canva Design School",
+          "url": "https://www.canva.com/designschool/",
+          "weeks": 1
+        },
+        {
+          "name": "WordPress",
+          "category": "CMS",
+          "priority": "low",
+          "resource": "WordPress.org Learn",
+          "url": "https://learn.wordpress.org/",
+          "weeks": 2
+        }
+      ]
+    }
+  },
+  "skills": {
+    "Python": {
+      "name": "Python",
+      "half_life_days": 180,
+      "resource": "Python.org",
+      "url": "https://docs.python.org/3/tutorial/",
+      "hours": 6
+    },
+    "Java": {
+      "name": "Java",
+      "half_life_days": 180,
+      "resource": "Java MOOC (Helsinki)",
+      "url": "https://java-programming.mooc.fi/",
+      "hours": 8
+    },
+    "JavaScript": {
+      "name": "JavaScript",
+      "half_life_days": 180,
+      "resource": "JavaScript.info",
+      "url": "https://javascript.info/",
+      "hours": 6
+    },
+    "Data Structures": {
+      "name": "Data Structures",
+      "half_life_days": 180,
+      "resource": "NeetCode Roadmap",
+      "url": "https://neetcode.io/roadmap",
+      "hours": 12
+    },
+    "Algorithms": {
+      "name": "Algorithms",
+      "half_life_days": 180,
+      "resource": "LeetCode Practice",
+      "url": "https://leetcode.com/",
+      "hours": 12
+    },
+    "Git": {
+      "name": "Git",
+      "half_life_days": 180,
+      "resource": "Git Handbook",
+      "url": "https://guides.github.com/",
+      "hours": 2
+    },
+    "SQL": {
+      "name": "SQL",
+      "half_life_days": 180,
+      "resource": "SQLBolt",
+      "url": "https://sqlbolt.com/",
+      "hours": 4
+    },
+    "REST API": {
+      "name": "REST API",
+      "half_life_days": 180,
+      "resource": "RESTful API Guide",
+      "url": "https://restfulapi.net/",
+      "hours": 4
+    },
+    "Linux": {
+      "name": "Linux",
+      "half_life_days": 180,
+      "resource": "Linux Journey",
+      "url": "https://linuxjourney.com/",
+      "hours": 6
+    },
+    "Docker": {
+      "name": "Docker",
+      "half_life_days": 90,
+      "resource": "Docker Docs",
+      "url": "https://docs.docker.com/",
+      "hours": 6
+    },
+    "OOP": {
+      "name": "OOP",
+      "half_life_days": 180,
+      "resource": "OOP Concepts Guide",
+      "url": "https://www.freecodecamp.org/",
+      "hours": 4
+    },
+    "Testing": {
+      "name": "Testing",
+      "half_life_days": 180,
+      "resource": "Mobile Testing Guide",
+      "url": "https://appium.io/",
+      "hours": 4
+    },
+    "Pandas": {
+      "name": "Pandas",
+      "half_life_days": 180,
+      "resource": "Pandas Docs",
+      "url": "https://pandas.pydata.org/",
+      "hours": 4
+    },
+    "NumPy": {
+      "name": "NumPy",
+      "half_life_days": 180,
+      "resource": "NumPy Quickstart",
+      "url": "https://numpy.org/",
+      "hours": 2
+    },
+    "Machine Learning": {
+      "name": "Machine Learning",
+      "half_life_days": 180,
+      "resource": "Andrew Ng ML Course",
+      "url": "https://www.coursera.org/learn/machine-learning",
+      "hours": 16
+    },
+    "Statistics": {
+      "name": "Statistics",
+      "half_life_days": 180,
+      "resource": "Khan Academy",
+      "url": "https://www.khanacademy.org/",
+      "hours": 8
+    },
+    "Data Visualization": {
+      "name": "Data Visualization",
+      "half_life_days": 180,
+      "resource": "Matplotlib & Seaborn",
+      "url": "https://matplotlib.org/",
+      "hours": 4
+    },
+    "Scikit-learn": {
+      "name": "Scikit-learn",
+      "half_life_days": 180,
+      "resource": "Scikit-learn Tutorials",
+      "url": "https://scikit-learn.org/",
+      "hours": 6
+    },
+    "TensorFlow": {
+      "name": "TensorFlow",
+      "half_life_days": 90,
+      "resource": "TF Tutorials",
+      "url": "https://www.tensorflow.org/tutorials",
+      "hours": 8
+    },
+    "R": {
+      "name": "R",
+      "half_life_days": 180,
+      "resource": "R for Data Science",
+      "url": "https://r4ds.had.co.nz/",
+      "hours": 6
+    },
+    "Jupyter": {
+      "name": "Jupyter",
+      "half_life_days": 180,
+      "resource": "Jupyter Docs",
+      "url": "https://jupyter.org/",
+      "hours": 2
+    },
+    "Deep Learning": {
+      "name": "Deep Learning",
+      "half_life_days": 180,
+      "resource": "Fast.ai",
+      "url": "https://www.fast.ai/",
+      "hours": 16
+    },
+    "HTML": {
+      "name": "HTML",
+      "half_life_days": 180,
+      "resource": "MDN HTML",
+      "url": "https://developer.mozilla.org/",
+      "hours": 2
+    },
+    "CSS": {
+      "name": "CSS",
+      "half_life_days": 180,
+      "resource": "CSS Tricks",
+      "url": "https://css-tricks.com/",
+      "hours": 4
+    },
+    "React": {
+      "name": "React",
+      "half_life_days": 90,
+      "resource": "React Official Docs",
+      "url": "https://react.dev/",
+      "hours": 8
+    },
+    "Node.js": {
+      "name": "Node.js",
+      "half_life_days": 180,
+      "resource": "Node.js Guides",
+      "url": "https://nodejs.org/en/docs/guides",
+      "hours": 6
+    },
+    "Express": {
+      "name": "Express",
+      "half_life_days": 180,
+      "resource": "Express.js Guide",
+      "url": "https://expressjs.com/",
+      "hours": 4
+    },
+    "MongoDB": {
+      "name": "MongoDB",
+      "half_life_days": 180,
+      "resource": "MongoDB University",
+      "url": "https://university.mongodb.com/",
+      "hours": 6
+    },
+    "TypeScript": {
+      "name": "TypeScript",
+      "half_life_days": 180,
+      "resource": "TS Handbook",
+      "url": "https://www.typescriptlang.org/docs/",
+      "hours": 6
+    },
+    "Figma": {
+      "name": "Figma",
+      "half_life_days": 180,
+      "resource": "Figma Learn",
+      "url": "https://www.figma.com/resources/learn-design/",
+      "hours": 6
+    },
+    "User Research": {
+      "name": "User Research",
+      "half_life_days": 180,
+      "resource": "UX Research Guide",
+      "url": "https://www.nngroup.com/",
+      "hours": 6
+    },
+    "Wireframing": {
+      "name": "Wireframing",
+      "half_life_days": 180,
+      "resource": "Wireframing Guide",
+      "url": "https://www.usability.gov/",
+      "hours": 4
+    },
+    "Prototyping": {
+      "name": "Prototyping",
+      "half_life_days": 180,
+      "resource": "Figma Prototyping",
+      "url": "https://www.figma.com/",
+      "hours": 4
+    },
+    "Typography": {
+      "name": "Typography",
+      "half_life_days": 180,
+      "resource": "Typography Guide",
+      "url": "https://practicaltypography.com/",
+      "hours": 2
+    },
+    "Color Theory": {
+      "name": "Color Theory",
+      "half_life_days": 180,
+      "resource": "Color Theory Basics",
+      "url": "https://www.interaction-design.org/",
+      "hours": 2
+    },
+    "Accessibility": {
+      "name": "Accessibility",
+      "half_life_days": 180,
+      "resource": "A11y Project",
+      "url": "https://www.a11yproject.com/",
+      "hours": 4
+    },
+    "Design Systems": {
+      "name": "Design Systems",
+      "half_life_days": 180,
+      "resource": "Design Systems Guide",
+      "url": "https://www.designsystems.com/",
+      "hours": 6
+    },
+    "Adobe XD": {
+      "name": "Adobe XD",
+      "half_life_days": 180,
+      "resource": "Adobe XD Tutorials",
+      "url": "https://www.adobe.com/",
+      "hours": 4
+    },
+    "Sketch": {
+      "name": "Sketch",
+      "half_life_days": 180,
+      "resource": "Sketch Docs",
+      "url": "https://www.sketch.com/",
+      "hours": 4
+    },
+    "Kubernetes": {
+      "name": "Kubernetes",
+      "half_life_days": 90,
+      "resource": "K8s Tutorial",
+      "url": "https://kubernetes.io/docs/tutorials/",
+      "hours": 10
+    },
+    "AWS": {
+      "name": "AWS",
+      "half_life_days": 90,
+      "resource": "AWS Cloud Practitioner",
+      "url": "https://aws.amazon.com/training/",
+      "hours": 12
+    },
+    "CI/CD": {
+      "name": "CI/CD",
+      "half_life_days": 180,
+      "resource": "GitHub Actions Guide",
+      "url": "https://docs.github.com/en/actions",
+      "hours": 4
+    },
+    "Terraform": {
+      "name": "Terraform",
+      "half_life_days": 180,
+      "resource": "Terraform Learn",
+      "url": "https://learn.hashicorp.com/terraform",
+      "hours": 8
+    },
+    "Bash": {
+      "name": "Bash",
+      "half_life_days": 180,
+      "resource": "Bash Guide",
+      "url": "https://tldp.org/LDP/Bash-Beginners-Guide/",
+      "hours": 4
+    },
+    "Networking": {
+      "name": "Networking",
+      "half_life_days": 180,
+      "resource": "Networking Basics",
+      "url": "https://www.cloudflare.com/learning/",
+      "hours": 6
+    },
+    "Monitoring": {
+      "name": "Monitoring",
+      "half_life_days": 180,
+      "resource": "Prometheus + Grafana",
+      "url": "https://prometheus.io/",
+      "hours": 4
+    },
+    "Ansible": {
+      "name": "Ansible",
+      "half_life_days": 180,
+      "resource": "Ansible Docs",
+      "url": "https://docs.ansible.com/",
+      "hours": 6
+    },
+    "React Native": {
+      "name": "React Native",
+      "half_life_days": 180,
+      "resource": "React Native Docs",
+      "url": "https://reactnative.dev/",
+      "hours": 10
+    },
+    "Flutter": {
+      "name": "Flutter",
+      "half_life_days": 180,
+      "resource": "Flutter Docs",
+      "url": "https://flutter.dev/docs",
+      "hours": 10
+    },
+    "Dart": {
+      "name": "Dart",
+      "half_life_days": 180,
+      "resource": "Dart Language Tour",
+      "url": "https://dart.dev/guides",
+      "hours": 4
+    },
+    "Swift": {
+      "name": "Swift",
+      "half_life_days": 180,
+      "resource": "Swift Playgrounds",
+      "url": "https://developer.apple.com/swift/",
+      "hours": 8
+    },
+    "Kotlin": {
+      "name": "Kotlin",
+      "half_life_days": 180,
+      "resource": "Kotlin Docs",
+      "url": "https://kotlinlang.org/docs/",
+      "hours": 8
+    },
+    "Firebase": {
+      "name": "Firebase",
+      "half_life_days": 180,
+      "resource": "Firebase Docs",
+      "url": "https://firebase.google.com/docs",
+      "hours": 4
+    },
+    "UI Design": {
+      "name": "UI Design",
+      "half_life_days": 180,
+      "resource": "Material Design",
+      "url": "https://m3.material.io/",
+      "hours": 4
+    },
+    "App Store": {
+      "name": "App Store",
+      "half_life_days": 180,
+      "resource": "Publishing Guide",
+      "url": "https://developer.android.com/",
+      "hours": 2
+    },
+    "PyTorch": {
+      "name": "PyTorch",
+      "half_life_days": 180,
+      "resource": "PyTorch Tutorials",
+      "url": "https://pytorch.org/tutorials/",
+      "hours": 8
+    },
+    "NLP": {
+      "name": "NLP",
+      "half_life_days": 180,
+      "resource": "Hugging Face Course",
+      "url": "https://huggingface.co/course",
+      "hours": 10
+    },
+    "Computer Vision": {
+      "name": "Computer Vision",
+      "half_life_days": 180,
+      "resource": "OpenCV Tutorials",
+      "url": "https://docs.opencv.org/",
+      "hours": 8
+    },
+    "Linear Algebra": {
+      "name": "Linear Algebra",
+      "half_life_days": 180,
+      "resource": "3Blue1Brown",
+      "url": "https://www.3blue1brown.com/",
+      "hours": 6
+    },
+    "MLOps": {
+      "name": "MLOps",
+      "half_life_days": 180,
+      "resource": "MLOps Guide",
+      "url": "https://ml-ops.org/",
+      "hours": 8
+    },
+    "SEO": {
+      "name": "SEO",
+      "half_life_days": 180,
+      "resource": "Moz Beginner Guide",
+      "url": "https://moz.com/beginners-guide-to-seo",
+      "hours": 6
+    },
+    "Google Analytics": {
+      "name": "Google Analytics",
+      "half_life_days": 180,
+      "resource": "Google Analytics Academy",
+      "url": "https://analytics.google.com/analytics/academy/",
+      "hours": 4
+    },
+    "Social Media": {
+      "name": "Social Media",
+      "half_life_days": 180,
+      "resource": "HubSpot Social Guide",
+      "url": "https://www.hubspot.com/",
+      "hours": 4
+    },
+    "Content Strategy": {
+      "name": "Content Strategy",
+      "half_life_days": 180,
+      "resource": "Content Marketing Institute",
+      "url": "https://contentmarketinginstitute.com/",
+      "hours": 6
+    },
+    "Email Marketing": {
+      "name": "Email Marketing",
+      "half_life_days": 180,
+      "resource": "Mailchimp Resources",
+      "url": "https://mailchimp.com/resources/",
+      "hours": 4
+    },
+    "PPC": {
+      "name": "PPC",
+      "half_life_days": 180,
+      "resource": "Google Ads Certification",
+      "url": "https://skillshop.exceedlms.com/",
+      "hours": 6
+    },
+    "Copywriting": {
+      "name": "Copywriting",
+      "half_life_days": 180,
+      "resource": "Copyblogger",
+      "url": "https://copyblogger.com/",
+      "hours": 6
+    },
+    "A/B Testing": {
+      "name": "A/B Testing",
+      "half_life_days": 180,
+      "resource": "Optimizely Guide",
+      "url": "https://www.optimizely.com/",
+      "hours": 4
+    },
+    "Branding": {
+      "name": "Branding",
+      "half_life_days": 180,
+      "resource": "Brand Strategy Course",
+      "url": "https://www.coursera.org/",
+      "hours": 6
+    },
+    "Canva": {
+      "name": "Canva",
+      "half_life_days": 180,
+      "resource": "Canva Design School",
+      "url": "https://www.canva.com/designschool/",
+      "hours": 2
+    },
+    "WordPress": {
+      "name": "WordPress",
+      "half_life_days": 180,
+      "resource": "WordPress.org Learn",
+      "url": "https://learn.wordpress.org/",
+      "hours": 4
+    }
+  }
+}
