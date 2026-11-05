@@ -1,0 +1,23 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Python environments, caches, and local databases
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.sqlite3-*
+.pytest_cache/
+
+# JavaScript dependencies and new build output
+node_modules/
+dist/
+
+# Collected server assets and machine-specific files
+staticfiles/
+.DS_Store
+Thumbs.db
+*.log
